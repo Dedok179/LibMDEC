@@ -17,7 +17,7 @@ MDEC.SaveAsJpg(test_640x480, "TEST_640x480");
 ```
 <img src="TEST_96x96.jpg"/>
 <img src="TEST_320x240.jpg" width="320"/>
-<img src="TEST_640x480.jpg" width="320"/>
+<img src="TEST_640x480.jpg" width="640"/>
 
 Use function ```GetPreviewImage``` for get ```Bitmap``` data
 ```
@@ -25,9 +25,9 @@ MDEC.GetPreviewImage(test_96x96).Save("TEST_96x96.png", System.Drawing.Imaging.I
 MDEC.GetPreviewImage(test_320x240).Save("TEST_320x240.png", System.Drawing.Imaging.ImageFormat.Png);
 MDEC.GetPreviewImage(test_640x480).Save("TEST_640x480.png", System.Drawing.Imaging.ImageFormat.Png);
 ```
-<img src="TEST_96x96.png" width="320"/>
+<img src="TEST_96x96.png"/>
 <img src="TEST_320x240.png" width="320"/>
-<img src="TEST_640x480.png" width="320"/>
+<img src="TEST_640x480.png" width="640"/>
 
 ## TODO
 Implement encoding image data to MDEC image
