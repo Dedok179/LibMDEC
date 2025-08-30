@@ -2,7 +2,7 @@
 This library is written for decoding PS1 MDEC images in C#. MDEC version 2 is currently supported.
 
 ## How to use
-Use function ```MdecImageDecoder``` for decoding image
+Use function ```MdecImageDecoder``` for decoding MDEC image
 ```
 var test_96x96 = MDEC.MdecImageDecoder(File.ReadAllBytes("TEST_96x96.bs"), 96, 96);
 var test_320x240 = MDEC.MdecImageDecoder(File.ReadAllBytes("TEST_320x240.bs"), 320, 240);
