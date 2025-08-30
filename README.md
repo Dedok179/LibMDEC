@@ -16,5 +16,15 @@ MDEC.SaveAsJpg(test_320x240, "TEST_320x240");
 MDEC.SaveAsJpg(test_640x480, "TEST_640x480");
 ```
 
+Use function ```GetPreviewImage``` for get ```Bitmap``` data
+```
+MDEC.GetPreviewImage(test_96x96).Save("TEST_96x96.png", System.Drawing.Imaging.ImageFormat.Png);
+MDEC.GetPreviewImage(test_320x240).Save("TEST_320x240.png", System.Drawing.Imaging.ImageFormat.Png);
+MDEC.GetPreviewImage(test_640x480).Save("TEST_640x480.png", System.Drawing.Imaging.ImageFormat.Png);
+```
+
+## TODO
+Implement encoding image data to MDEC image
+
 ## Author
 Dedok179
