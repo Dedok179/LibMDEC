@@ -9,5 +9,12 @@ var test_320x240 = MDEC.MdecImageDecoder(File.ReadAllBytes("TEST_320x240.bs"), 3
 var test_640x480 = MDEC.MdecImageDecoder(File.ReadAllBytes("TEST_640x480.bs"), 640, 480);
 ```
 
+Use function ```SaveAsJpg``` for save decoded data as .jpg image
+```
+MDEC.SaveAsJpg(test_96x96, "TEST_96x96");
+MDEC.SaveAsJpg(test_320x240, "TEST_320x240");
+MDEC.SaveAsJpg(test_640x480, "TEST_640x480");
+```
+
 ## Author
 Dedok179
