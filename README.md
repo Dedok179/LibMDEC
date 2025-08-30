@@ -15,7 +15,7 @@ MDEC.SaveAsJpg(test_96x96, "TEST_96x96");
 MDEC.SaveAsJpg(test_320x240, "TEST_320x240");
 MDEC.SaveAsJpg(test_640x480, "TEST_640x480");
 ```
-![alt text](https://github.com/Dedok179/LibMDEC/blob/main/TEST_96x96.jpg?raw=true)
+![alt text](https://github.com/Dedok179/LibMDEC/blob/main/TEST_96x96.jpg?raw=true) ![alt text](https://github.com/Dedok179/LibMDEC/blob/main/TEST_320x240.jpg?raw=true)
 
 Use function ```GetPreviewImage``` for get ```Bitmap``` data
 ```
